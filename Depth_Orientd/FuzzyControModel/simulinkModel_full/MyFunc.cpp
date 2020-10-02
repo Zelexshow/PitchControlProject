@@ -40,11 +40,12 @@ static void mdlInitializeSizes(SimStruct *S)
 
     // Specify I/O
     if (!ssSetNumInputPorts(S, 1)) return;
-    ssSetInputPortWidth(S, 0, DYNAMICALLY_SIZED);
+    //ssSetInputPortWidth(S, 0, DYNAMICALLY_SIZED);
+    ssSetInputPortWidth(S, 0, 4);
     ssSetInputPortDirectFeedThrough(S, 0, 1);
     if (!ssSetNumOutputPorts(S,1)) return;
-    ssSetOutputPortWidth(S, 0, DYNAMICALLY_SIZED);
-
+    //ssSetOutputPortWidth(S, 0, DYNAMICALLY_SIZED);
+    ssSetOutputPortWidth(S, 0, 8);
     ssSetNumSampleTimes(S, 1);
 
     // Reserve place for C++ object
