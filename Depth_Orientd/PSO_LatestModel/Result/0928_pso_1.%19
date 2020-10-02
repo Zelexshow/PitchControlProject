@@ -1,0 +1,22 @@
+FILE     0928_pso_1.$19
+ACCESS    D
+FORM      U
+RECL               4
+FORMAT    R*4
+CONTENT  POWPROD             
+CONFIG   STATIONARY          
+NDIMENS 3
+DIMENS             6          2          0
+GENLAB   'Blade 2 Deflections'
+VARIAB    'Blade 2 x-deflection' 'Blade 2 y-deflection' 'Blade 2 z-deflection' 'Blade 2 rotation about x' 'Blade 2 rotation about y' 'Blade 2 rotation about z'
+VARUNIT   L L L A A A
+AXISLAB   'Distance along blade'
+AXIUNIT   L
+AXIMETH  3
+AXIVAL      2.350    4.350
+AXISLAB  'Time'
+AXIUNIT  T
+AXIMETH  2
+MIN        0.00000000E+00
+STEP       0.50000001E-01
+NVARS    0

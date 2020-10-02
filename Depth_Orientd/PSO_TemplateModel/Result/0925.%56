@@ -1,0 +1,22 @@
+FILE     0925.$56
+ACCESS    D
+FORM      U
+RECL               4
+FORMAT    R*4
+CONTENT  POWPROD             
+CONFIG   STATIONARY          
+NDIMENS 3
+DIMENS             6          2          0
+GENLAB   'Support Structure deflections'
+VARIAB    'Support Structure x-deflection' 'Support Structure y-deflection' 'Support Structure z-deflection' 'Support Structure rotation about x' 'Support Structure rotation about y' 'Support Structure rotation about z'
+VARUNIT   L L L A A A
+AXISLAB   'Structure node'
+AXIUNIT   N
+AXIMETH  1
+AXITICK  'Node 1' 'Node 5'                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              
+AXISLAB  'Time'
+AXIUNIT  T
+AXIMETH  2
+MIN        0.00000000E+00
+STEP       0.99999998E-02
+NVARS    0

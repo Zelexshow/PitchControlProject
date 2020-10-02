@@ -1,0 +1,18 @@
+FILE     0926.$05
+ACCESS    D
+FORM      U
+RECL               4
+FORMAT    R*4
+CONTENT  POWPROD             
+CONFIG   STATIONARY          
+NDIMENS  2
+DIMENS             8          0
+GENLAB   'Drive train variables'
+VARIAB    'Rotor speed' 'Rotor azimuth angle' 'Generator speed' 'Generator azimuth angle' 'LSS torque' 'HSS torque' 'Mechanical loss torque' 'Generator air-gap torque'
+VARUNIT   A/T A A/T A FL FL FL FL
+AXISLAB  'Time'
+AXIUNIT  T
+AXIMETH  2
+MIN        0.00000000E+00
+STEP       0.50000001E-01
+NVARS    0

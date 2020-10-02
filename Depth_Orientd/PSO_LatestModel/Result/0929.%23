@@ -1,0 +1,18 @@
+FILE     0929.$23
+ACCESS    D
+FORM      U
+RECL               4
+FORMAT    R*4
+CONTENT  POWPROD             
+CONFIG   STATIONARY          
+NDIMENS  2
+DIMENS             8          0
+GENLAB   'Hub loads: fixed frame GL coordinates'
+VARIAB    'Stationary hub Mx' 'Stationary hub My' 'Stationary hub Mz' 'Stationary hub Myz' 'Stationary hub Fx' 'Stationary hub Fy' 'Stationary hub Fz' 'Stationary hub Fyz'
+VARUNIT   FL FL FL FL F F F F
+AXISLAB  'Time'
+AXIUNIT  T
+AXIMETH  2
+MIN        0.00000000E+00
+STEP       0.50000001E-01
+NVARS    0

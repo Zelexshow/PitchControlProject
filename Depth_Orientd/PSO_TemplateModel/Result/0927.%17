@@ -1,0 +1,22 @@
+FILE     0927.$17
+ACCESS    D
+FORM      U
+RECL               4
+FORMAT    R*4
+CONTENT  POWPROD             
+CONFIG   STATIONARY          
+NDIMENS 3
+DIMENS             8          4          0
+GENLAB   'Blade 3 Loads: Principal axes'
+VARIAB    'Blade 3 Mx (Principal axes)' 'Blade 3 My (Principal axes)' 'Blade 3 Mxy (Principal axes)' 'Blade 3 Mz (Principal axes)' 'Blade 3 Fx (Principal axes)' 'Blade 3 Fy (Principal axes)' 'Blade 3 Fxy (Principal axes)' 'Blade 3 Fz (Principal axes)'
+VARUNIT   FL FL FL FL F F F F
+AXISLAB   'Distance along blade'
+AXIUNIT   L
+AXIMETH  3
+AXIVAL      0.000    0.950    2.350    3.850
+AXISLAB  'Time'
+AXIUNIT  T
+AXIMETH  2
+MIN        0.00000000E+00
+STEP       0.50000001E-01
+NVARS    0

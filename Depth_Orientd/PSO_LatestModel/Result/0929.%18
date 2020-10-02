@@ -1,0 +1,22 @@
+FILE     0929.$18
+ACCESS    D
+FORM      U
+RECL               4
+FORMAT    R*4
+CONTENT  POWPROD             
+CONFIG   STATIONARY          
+NDIMENS 3
+DIMENS             6          2          0
+GENLAB   'Blade 1 Deflections'
+VARIAB    'Blade 1 x-deflection' 'Blade 1 y-deflection' 'Blade 1 z-deflection' 'Blade 1 rotation about x' 'Blade 1 rotation about y' 'Blade 1 rotation about z'
+VARUNIT   L L L A A A
+AXISLAB   'Distance along blade'
+AXIUNIT   L
+AXIMETH  3
+AXIVAL      2.350    4.350
+AXISLAB  'Time'
+AXIUNIT  T
+AXIMETH  2
+MIN        0.00000000E+00
+STEP       0.50000001E-01
+NVARS    0

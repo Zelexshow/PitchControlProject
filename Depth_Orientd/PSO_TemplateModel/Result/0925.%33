@@ -1,0 +1,22 @@
+FILE     0925.$33
+ACCESS    D
+FORM      U
+RECL               4
+FORMAT    R*4
+CONTENT  POWPROD             
+CONFIG   STATIONARY          
+NDIMENS  3
+DIMENS             3          2          0
+GENLAB   'Blade 3 Absolute motion'               
+VARIAB    'Blade 3 x-position' 'Blade 3 y-position' 'Blade 3 z-position'
+VARUNIT   L L L
+AXISLAB  'Distance along blade'
+AXIUNIT  L
+AXIMETH  3
+AXIVAL      2.350    4.350
+AXISLAB  'Time'
+AXIUNIT  T
+AXIMETH  2
+MIN        0.00000000E+00
+STEP       0.99999998E-02
+NVARS    0

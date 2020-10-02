@@ -1,0 +1,22 @@
+FILE     0927.$09
+ACCESS    D
+FORM      U
+RECL               4
+FORMAT    R*4
+CONTENT  POWPROD             
+CONFIG   STATIONARY          
+NDIMENS  3
+DIMENS            18          3          0
+GENLAB   'Hydrodynamic information: blade 1'
+VARIAB   ELRAD AXIALA1 TANGA1 TLOSS1 PHI1 ALPHA1 REYN1 CL1 CD1 CM1 'Relative flow speed 1' 'Out of plane hydrodynamic loading 1' 'In plane hydrodynamic loading 1' 'Hydrodynamic twist loading 1' VP1 VT1 INFX1 'Cavitation Index 1'
+VARUNIT  L N N N A A N N N N L/T F/L F/L FL/L L/T L/T N N
+AXISLAB  'Distance along blade'
+AXIUNIT  L
+AXIMETH  3
+AXIVAL      0.950    2.350    3.850
+AXISLAB  'Time'
+AXIUNIT  T
+AXIMETH  2
+MIN        0.00000000E+00
+STEP       0.50000001E-01
+NVARS    0

@@ -1,0 +1,18 @@
+FILE     0929.$06
+ACCESS    D
+FORM      U
+RECL               4
+FORMAT    R*4
+CONTENT  POWPROD             
+CONFIG   STATIONARY          
+NDIMENS  2
+DIMENS             4          0
+GENLAB   'Generator variables'
+VARIAB   GENRTQ EPOWER POWLOSS REACPOW
+VARUNIT  FL P P Q
+AXISLAB  'Time'
+AXIUNIT  T
+AXIMETH  2
+MIN        0.00000000E+00
+STEP       0.50000001E-01
+NVARS    0

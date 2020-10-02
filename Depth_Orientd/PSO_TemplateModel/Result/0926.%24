@@ -1,0 +1,18 @@
+FILE     0926.$24
+ACCESS    D
+FORM      U
+RECL               4
+FORMAT    R*4
+CONTENT  POWPROD             
+CONFIG   STATIONARY          
+NDIMENS  2
+DIMENS             8          0
+GENLAB   'Yaw bearing loads GL coordinates'
+VARIAB    'Yaw bearing Mx' 'Yaw bearing My' 'Yaw bearing Mxy' 'Yaw bearing Mz' 'Yaw bearing Fx' 'Yaw bearing Fy' 'Yaw bearing Fxy' 'Yaw bearing Fz'
+VARUNIT   FL FL FL FL F F F F
+AXISLAB  'Time'
+AXIUNIT  T
+AXIMETH  2
+MIN        0.00000000E+00
+STEP       0.50000001E-01
+NVARS    0

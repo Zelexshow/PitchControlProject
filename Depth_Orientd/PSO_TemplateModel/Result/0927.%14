@@ -1,0 +1,18 @@
+FILE     0927.$14
+ACCESS    D
+FORM      U
+RECL               4
+FORMAT    R*4
+CONTENT  POWPROD             
+CONFIG   STATIONARY          
+NDIMENS  2
+DIMENS             8          0
+GENLAB   'Environmental information'
+VARIAB    'Hub flow speed magnitude' 'Cup anemometer flow speed' 'Hub longitudinal flow speed' 'Hub lateral flow speed' 'Hub vertical flow speed' 'Flow direction at hub' 'Upflow at hub' 'Sea surface elevation'
+VARUNIT   L/T L/T L/T L/T L/T A A L
+AXISLAB  'Time'
+AXIUNIT  T
+AXIMETH  2
+MIN        0.00000000E+00
+STEP       0.50000001E-01
+NVARS    0

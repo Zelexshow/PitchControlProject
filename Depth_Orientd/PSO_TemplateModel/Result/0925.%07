@@ -1,0 +1,18 @@
+FILE     0925.$07
+ACCESS    D
+FORM      U
+RECL               4
+FORMAT    R*4
+CONTENT  POWPROD             
+CONFIG   STATIONARY          
+NDIMENS  2
+DIMENS            13          0
+GENLAB   'Summary information'
+VARIAB    'Time from start of simulation' 'Time from start of output' 'Hub flow speed magnitude' 'Rotor speed' 'Electrical power' 'Yaw misalignment' 'Mean pitch angle' 'Blade tip to tower centre' 'Blade tip to tower surface' 'Tip to tower closest approach' 'Rotor inertia including added mass' 'Rotor inertia excluding added mass' 'Added mass inertia'
+VARUNIT   T T L/T A/T P A A L L L MLL MLL MLL
+AXISLAB  'Time'
+AXIUNIT  T
+AXIMETH  2
+MIN        0.00000000E+00
+STEP       0.99999998E-02
+NVARS    0

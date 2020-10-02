@@ -1,0 +1,22 @@
+FILE     powprod.$16
+ACCESS    D
+FORM      U
+RECL               4
+FORMAT    R*4
+CONTENT  POWPROD             
+CONFIG   STATIONARY          
+NDIMENS 3
+DIMENS             8          4          0
+GENLAB   'Blade 2 Loads: Principal axes'
+VARIAB    'Blade 2 Mx (Principal axes)' 'Blade 2 My (Principal axes)' 'Blade 2 Mxy (Principal axes)' 'Blade 2 Mz (Principal axes)' 'Blade 2 Fx (Principal axes)' 'Blade 2 Fy (Principal axes)' 'Blade 2 Fxy (Principal axes)' 'Blade 2 Fz (Principal axes)'
+VARUNIT   FL FL FL FL F F F F
+AXISLAB   'Distance along blade'
+AXIUNIT   L
+AXIMETH  3
+AXIVAL      0.000    0.950    2.350    3.850
+AXISLAB  'Time'
+AXIUNIT  T
+AXIMETH  2
+MIN        0.00000000E+00
+STEP       0.50000001E-01
+NVARS    0
