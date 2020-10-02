@@ -1,0 +1,6 @@
+ *** Note: With this passive actuator model, the actuator torque and bearing friction are not fully defined.
+ *** WARNING: Generator torque lower limit reached
+ *** Note: The state derivative has not been satisfied on one or more occasions.
+
+ Run completed:            1 warnings.
+

@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.50"
+    ComputedModelVersion    "1.51"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -62,7 +62,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [366.0, 41.0, 1053.0, 761.0]
+      Location		      [343.0, 168.0, 1200.0, 761.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -86,19 +86,19 @@ Model {
 	  $ObjectID		  5
 	  IsActive		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "7"
-	  Extents		  [1566.0, 918.0]
-	  ZoomFactor		  [1.25]
-	  Offset		  [-179.51223958333327, -10.392380952380961]
+	  LoadSaveID		  "85"
+	  Extents		  [1146.0, 579.0]
+	  ZoomFactor		  [1.0]
+	  Offset		  [49.5, -5.75]
 	}
 	Object {
 	  $ObjectID		  6
 	  IsActive		  [1]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
-	  Extents		  [1253.0, 734.0]
+	  Extents		  [1146.0, 579.0]
 	  ZoomFactor		  [1.25]
-	  Offset		  [110.10586146498491, -31.625235923624757]
+	  Offset		  [12.379908672234391, -52.271487121213745]
 	}
 	PropName		"EditorsInfo"
       }
@@ -113,18 +113,18 @@ Model {
 	UserData		""
 	Floating		[0]
 	DockPosition		"Right"
-	Width			[512]
-	Height			[384]
+	Width			[640]
+	Height			[480]
       }
       WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAAA/sAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
       "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
-      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAAB5AP///wAAAAEAAAAAAAAAAPwCA"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP///wAAAAEAAAAAAAAAAPwCA"
       "AAAAfsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZ"
-      "QBjAHQAbwByAAAAAAD/////AAAARgD///8AAAUSAAADJwAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
+      "QBjAHQAbwByAAAAAAD/////AAAAOQD///8AAASgAAACfwAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
       "////wEAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/"
-      "////wEAAACR/////wAAAAAAAAAA/////wEAAAEE/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAGV/////wAAAAAAAAAA/"
-      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAPH/////wAAAAAAAAAA/"
-      "////wEAAAP//////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA"
+      "////wEAAAB5/////wAAAAAAAAAA/////wEAAADa/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAFT/////wAAAAAAAAAA/"
+      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAMY/////wAAAAAAAAAA/"
+      "////wEAAANH/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA"
     }
   }
   HideAutomaticNames	  on
@@ -132,11 +132,11 @@ Model {
   Creator		  "zelex"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "zelex"
+  LastModifiedBy	  "Zelex"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Fri Oct 02 14:46:56 2020"
-  RTWModifiedTimeStamp	  523549663
-  ModelVersionFormat	  "1.%<AutoIncrement:50>"
+  LastModifiedDate	  "Fri Oct 02 18:22:12 2020"
+  RTWModifiedTimeStamp	  523563668
+  ModelVersionFormat	  "1.%<AutoIncrement:51>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "disabled"
@@ -252,7 +252,7 @@ Model {
 	  StopTime		  "30"
 	  AbsTol		  "auto"
 	  AutoScaleAbsTol	  on
-	  FixedStep		  "0.01"
+	  FixedStep		  "sap"
 	  InitialStep		  "auto"
 	  MaxOrder		  5
 	  ZcThreshold		  "auto"
@@ -1261,7 +1261,7 @@ Model {
   }
   System {
     Name		    "ModelTestVersion"
-    Location		    [366, 41, 1419, 802]
+    Location		    [343, 168, 1543, 929]
     Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
@@ -1303,7 +1303,7 @@ Model {
       ContentPreviewEnabled   on
       System {
 	Name			"MomentCotro"
-	Location		[-7, -7, 1543, 831]
+	Location		[343, 168, 1543, 929]
 	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
@@ -1365,7 +1365,7 @@ Model {
 	  ContentPreviewEnabled	  on
 	  System {
 	    Name		    "Colenman\n"
-	    Location		    [-7, -7, 1543, 831]
+	    Location		    [343, 168, 1543, 929]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
 	    SetExecutionDomain	    off
@@ -2943,8 +2943,8 @@ Model {
       }
       System {
 	Name			"PowerContro"
-	Location		[344, 58, 1397, 819]
-	Open			on
+	Location		[343, 168, 1543, 929]
+	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -3156,8 +3156,8 @@ Model {
 	  ContentPreviewEnabled	  on
 	  System {
 	    Name		    "FuzzyPI"
-	    Location		    [344, 58, 1397, 819]
-	    Open		    off
+	    Location		    [343, 168, 1543, 929]
+	    Open		    on
 	    PortBlocksUseCompactNotation off
 	    SetExecutionDomain	    off
 	    ExecutionDomainType	    "Deduce"
@@ -4210,7 +4210,7 @@ Model {
       Position		      [520, 165, 550, 185]
       ZOrder		      15
       InputProcessing	      "Elements as channels (sample based)"
-      SampleTime	      "0.01"
+      SampleTime	      "-1"
     }
     Block {
       BlockType		      UnitDelay
@@ -4219,7 +4219,7 @@ Model {
       Position		      [520, 140, 550, 160]
       ZOrder		      16
       InputProcessing	      "Elements as channels (sample based)"
-      SampleTime	      "0.01"
+      SampleTime	      "-1"
     }
     Block {
       BlockType		      UnitDelay
@@ -4228,7 +4228,7 @@ Model {
       Position		      [520, 90, 550, 110]
       ZOrder		      18
       InputProcessing	      "Elements as channels (sample based)"
-      SampleTime	      "0.01"
+      SampleTime	      "-1"
     }
     Block {
       BlockType		      UnitDelay
@@ -4238,7 +4238,7 @@ Model {
       ZOrder		      17
       InitialCondition	      "22.82"
       InputProcessing	      "Elements as channels (sample based)"
-      SampleTime	      "0.01"
+      SampleTime	      "-1"
     }
     Block {
       BlockType		      UnitDelay
@@ -4247,7 +4247,7 @@ Model {
       Position		      [520, 190, 550, 210]
       ZOrder		      24
       InputProcessing	      "Elements as channels (sample based)"
-      SampleTime	      "0.01"
+      SampleTime	      "-1"
     }
     Block {
       BlockType		      UnitDelay
@@ -4256,7 +4256,7 @@ Model {
       Position		      [520, 215, 550, 235]
       ZOrder		      25
       InputProcessing	      "Elements as channels (sample based)"
-      SampleTime	      "0.01"
+      SampleTime	      "-1"
     }
     Block {
       BlockType		      UnitDelay
@@ -4265,7 +4265,7 @@ Model {
       Position		      [520, 240, 550, 260]
       ZOrder		      26
       InputProcessing	      "Elements as channels (sample based)"
-      SampleTime	      "0.01"
+      SampleTime	      "-1"
     }
     Block {
       BlockType		      UnitDelay
@@ -4274,7 +4274,7 @@ Model {
       Position		      [510, 265, 540, 285]
       ZOrder		      27
       InputProcessing	      "Elements as channels (sample based)"
-      SampleTime	      "0.01"
+      SampleTime	      "-1"
     }
     Line {
       ZOrder		      29
