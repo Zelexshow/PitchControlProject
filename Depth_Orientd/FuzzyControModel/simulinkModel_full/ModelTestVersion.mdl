@@ -62,7 +62,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [343.0, 168.0, 1200.0, 761.0]
+      Location		      [366.0, 41.0, 1053.0, 761.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -86,19 +86,19 @@ Model {
 	  $ObjectID		  5
 	  IsActive		  [0]
 	  ViewObjType		  "SimulinkSubsys"
-	  LoadSaveID		  "85"
-	  Extents		  [1146.0, 579.0]
-	  ZoomFactor		  [1.0]
-	  Offset		  [49.5, -5.75]
+	  LoadSaveID		  "7"
+	  Extents		  [1253.0, 734.0]
+	  ZoomFactor		  [1.25]
+	  Offset		  [-179.51223958333327, -10.392380952380961]
 	}
 	Object {
 	  $ObjectID		  6
 	  IsActive		  [1]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
-	  Extents		  [1146.0, 579.0]
+	  Extents		  [1253.0, 734.0]
 	  ZoomFactor		  [1.25]
-	  Offset		  [12.379908672234391, -52.271487121213745]
+	  Offset		  [40.929013033688534, -72.5852359236248]
 	}
 	PropName		"EditorsInfo"
       }
@@ -113,18 +113,18 @@ Model {
 	UserData		""
 	Floating		[0]
 	DockPosition		"Right"
-	Width			[640]
-	Height			[480]
+	Width			[512]
+	Height			[384]
       }
       WindowState	      "AAAA/wAAAAD9AAAAAgAAAAAAAAC9AAAB+PwCAAAAA/sAAAAWAEQAbwBjAGsAVwBpAGQAZwBlAHQAMwEAAAAxAAAB+AAAA"
       "AAAAAAA+wAAABYARABvAGMAawBXAGkAZABnAGUAdAA0AAAAAAD/////AAAAAAAAAAD7AAAAUgBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0Ac"
-      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAABjAP///wAAAAEAAAAAAAAAAPwCA"
+      "ABvAG4AZQBuAHQALwBHAEwAVQBFADIAIAB0AHIAZQBlACAAYwBvAG0AcABvAG4AZQBuAHQAAAAAAP////8AAAB5AP///wAAAAEAAAAAAAAAAPwCA"
       "AAAAfsAAABUAEcATABVAEUAMgA6AFAAcgBvAHAAZQByAHQAeQBJAG4AcwBwAGUAYwB0AG8AcgAvAFAAcgBvAHAAZQByAHQAeQAgAEkAbgBzAHAAZ"
-      "QBjAHQAbwByAAAAAAD/////AAAAOQD///8AAASgAAACfwAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
+      "QBjAHQAbwByAAAAAAD/////AAAARgD///8AAAUSAAADJwAAAAEAAAACAAAAAQAAAAL8AAAAAQAAAAIAAAAP/////wAAAAAA/////wAAAAAAAAAA/"
       "////wEAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/"
-      "////wEAAAB5/////wAAAAAAAAAA/////wEAAADa/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAFT/////wAAAAAAAAAA/"
-      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAMY/////wAAAAAAAAAA/"
-      "////wEAAANH/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA"
+      "////wEAAACR/////wAAAAAAAAAA/////wEAAAEE/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAGV/////wAAAAAAAAAA/"
+      "////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA/////wEAAAPH/////wAAAAAAAAAA/"
+      "////wEAAAP//////wAAAAAAAAAA/////wAAAAAA/////wAAAAAAAAAA"
     }
   }
   HideAutomaticNames	  on
@@ -132,10 +132,10 @@ Model {
   Creator		  "zelex"
   UpdateHistory		  "UpdateHistoryNever"
   ModifiedByFormat	  "%<Auto>"
-  LastModifiedBy	  "Zelex"
+  LastModifiedBy	  "zelex"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Fri Oct 02 18:22:12 2020"
-  RTWModifiedTimeStamp	  523563668
+  LastModifiedDate	  "Fri Oct 02 22:13:07 2020"
+  RTWModifiedTimeStamp	  523564569
   ModelVersionFormat	  "1.%<AutoIncrement:51>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
@@ -1261,7 +1261,7 @@ Model {
   }
   System {
     Name		    "ModelTestVersion"
-    Location		    [343, 168, 1543, 929]
+    Location		    [366, 41, 1419, 802]
     Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
@@ -1303,7 +1303,7 @@ Model {
       ContentPreviewEnabled   on
       System {
 	Name			"MomentCotro"
-	Location		[343, 168, 1543, 929]
+	Location		[366, 41, 1419, 802]
 	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
@@ -1365,7 +1365,7 @@ Model {
 	  ContentPreviewEnabled	  on
 	  System {
 	    Name		    "Colenman\n"
-	    Location		    [343, 168, 1543, 929]
+	    Location		    [366, 41, 1419, 802]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
 	    SetExecutionDomain	    off
@@ -1951,7 +1951,7 @@ Model {
 	  ContentPreviewEnabled	  on
 	  System {
 	    Name		    "Subsystem"
-	    Location		    [-7, -7, 1543, 831]
+	    Location		    [366, 41, 1419, 802]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
 	    SetExecutionDomain	    off
@@ -2257,7 +2257,7 @@ Model {
 	  ContentPreviewEnabled	  on
 	  System {
 	    Name		    "Subsystem1"
-	    Location		    [-7, -7, 1543, 831]
+	    Location		    [366, 41, 1419, 802]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
 	    SetExecutionDomain	    off
@@ -2943,8 +2943,8 @@ Model {
       }
       System {
 	Name			"PowerContro"
-	Location		[343, 168, 1543, 929]
-	Open			off
+	Location		[366, 41, 1419, 802]
+	Open			on
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
 	ExecutionDomainType	"Deduce"
@@ -3156,8 +3156,8 @@ Model {
 	  ContentPreviewEnabled	  on
 	  System {
 	    Name		    "FuzzyPI"
-	    Location		    [343, 168, 1543, 929]
-	    Open		    on
+	    Location		    [366, 41, 1419, 802]
+	    Open		    off
 	    PortBlocksUseCompactNotation off
 	    SetExecutionDomain	    off
 	    ExecutionDomainType	    "Deduce"
@@ -3719,7 +3719,7 @@ Model {
       }
       System {
 	Name			"TorqueControl"
-	Location		[344, 58, 1397, 819]
+	Location		[366, 41, 1419, 802]
 	Open			off
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
@@ -3959,7 +3959,7 @@ Model {
 	  ContentPreviewEnabled	  on
 	  System {
 	    Name		    "PI"
-	    Location		    [344, 58, 1397, 819]
+	    Location		    [366, 41, 1419, 802]
 	    Open		    off
 	    PortBlocksUseCompactNotation off
 	    SetExecutionDomain	    off

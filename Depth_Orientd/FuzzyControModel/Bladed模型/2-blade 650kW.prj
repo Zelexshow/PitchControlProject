@@ -403,9 +403,9 @@ MUCN	 0
 MEND
 
 MSTART DISCON
-DISCON	d:\文档\三年级\毕业文件夹\plc算法文件夹\pso算法包\latest_version\excontrol\debug\excontrol.dll
+DISCON	d:\文档\三年级\毕业文件夹\plc算法文件夹\联仿模型包\depth_orientd\fuzzycontromodel\excontrol\debug\excontrol.dll
 DLLCALLSTYLE	0
-SAMPLETIME	 .01
+SAMPLETIME	 .02
 Data	""
 NOISEOK	0
 NOISE	PITCH	0	 0	 0
