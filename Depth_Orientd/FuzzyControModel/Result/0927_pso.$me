@@ -1,9 +1,0 @@
- *** WARNING: Generator torque lower limit reached
- *** Note: With this passive actuator model, the actuator torque and bearing friction are not fully defined.
- *** WARNING: Generator torque upper limit reached
- *** Note: The integrator tolerance has not been satisfied on one or more occasions.
- *** Note: Solution performance summary written to .$Z0
- *** Note:            5 aerodynamic warnings generated.
-
- Run completed:            2 warnings.
-

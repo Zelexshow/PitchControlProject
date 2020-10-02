@@ -114,15 +114,16 @@ extern "C" void __declspec(dllexport) __cdecl DISCON(float *avrSwap,
 	information[3] = GetSwapValue(15);//电机功率:W
 
 	//暂时用不到的变量
-	information[4] = GetSwapValue(60); //叶片1方位角
-	information[5] = GetSwapValue(30);//叶根弯矩1
-	information[6] = GetSwapValue(31);//叶根弯矩2
-	information[7] = GetSwapValue(32);//叶根弯矩3
+	
+	information[4] = GetSwapValue(30);//叶根弯矩1
+	information[5] = GetSwapValue(31);//叶根弯矩2
+	information[6] = GetSwapValue(32);//叶根弯矩3
+	information[7] = GetSwapValue(60); //叶片1方位角
 
 
 	int ValidateBufLen = 0;
 	//仅用到转矩控制和功率控制所需的模型参数
-	for (int i = 0; i<4; i++)
+	for (int i = 0; i<8; i++)
 	{
 		ValidateBufLen = strlen(WindBuf);
 		sprintf(WindBuf + ValidateBufLen, "%g;", information[i]);
