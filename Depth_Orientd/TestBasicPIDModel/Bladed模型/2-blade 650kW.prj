@@ -6,8 +6,8 @@
 VERSION	4.3.0.39
 TIDAL	-1
 MULTIBODY	 1
-CALCULATION	13
-OPTIONS	262135
+CALCULATION	10
+OPTIONS	262133
 PROJNAME	Tidal Bladed Demo
 DATE	January 2007
 ENGINEER	Graeme McCann
@@ -403,13 +403,9 @@ MUCN	 0
 MEND
 
 MSTART DISCON
-<<<<<<< HEAD
-DISCON	d:\文档\三年级\毕业文件夹\plc算法文件夹\联仿模型包\depth_orientd\fuzzycontromodel\excontrol\debug\excontrol.dll
-=======
-DISCON	d:\三年级\毕业文件夹\plc算法文件夹\联仿模型包\depth_orientd\fuzzycontromodel\excontrol\debug\excontrol.dll
->>>>>>> 3bc89dec7a734345ab5f30e3aa42a7040480e53d
+DISCON	d:\文档\三年级\毕业文件夹\plc算法文件夹\联仿模型包\depth_orientd\testbasicpidmodel\excontro\debug\excontro.dll
 DLLCALLSTYLE	0
-SAMPLETIME	 .02
+SAMPLETIME	 .01
 Data	""
 NOISEOK	0
 NOISE	PITCH	0	 0	 0
