@@ -6,7 +6,7 @@ Model {
     NumRootInports	    0
     NumRootOutports	    0
     ParameterArgumentNames  ""
-    ComputedModelVersion    "1.51"
+    ComputedModelVersion    "1.54"
     NumModelReferences	    0
     NumTestPointedSignals   0
     NumProvidedFunctions    0
@@ -62,7 +62,7 @@ Model {
       $ObjectID		      2
       $ClassName	      "Simulink.WindowInfo"
       IsActive		      [1]
-      Location		      [366.0, 41.0, 1053.0, 761.0]
+      Location		      [446.0, 24.0, 1053.0, 761.0]
       Object {
 	$PropName		"ModelBrowserInfo"
 	$ObjectID		3
@@ -84,7 +84,7 @@ Model {
 	Dimension		2
 	Object {
 	  $ObjectID		  5
-	  IsActive		  [0]
+	  IsActive		  [1]
 	  ViewObjType		  "SimulinkSubsys"
 	  LoadSaveID		  "7"
 	  Extents		  [1253.0, 734.0]
@@ -93,12 +93,12 @@ Model {
 	}
 	Object {
 	  $ObjectID		  6
-	  IsActive		  [1]
+	  IsActive		  [0]
 	  ViewObjType		  "SimulinkTopLevel"
 	  LoadSaveID		  "0"
 	  Extents		  [1253.0, 734.0]
 	  ZoomFactor		  [1.25]
-	  Offset		  [40.929013033688534, -72.5852359236248]
+	  Offset		  [40.929013033688591, -72.5852359236248]
 	}
 	PropName		"EditorsInfo"
       }
@@ -134,9 +134,9 @@ Model {
   ModifiedByFormat	  "%<Auto>"
   LastModifiedBy	  "zelex"
   ModifiedDateFormat	  "%<Auto>"
-  LastModifiedDate	  "Fri Oct 02 22:13:07 2020"
-  RTWModifiedTimeStamp	  523564569
-  ModelVersionFormat	  "1.%<AutoIncrement:51>"
+  LastModifiedDate	  "Sat Oct 03 10:22:26 2020"
+  RTWModifiedTimeStamp	  523621344
+  ModelVersionFormat	  "1.%<AutoIncrement:54>"
   SampleTimeColors	  off
   SampleTimeAnnotations	  off
   LibraryLinkDisplay	  "disabled"
@@ -1261,7 +1261,7 @@ Model {
   }
   System {
     Name		    "ModelTestVersion"
-    Location		    [366, 41, 1419, 802]
+    Location		    [446, 24, 1499, 785]
     Open		    on
     PortBlocksUseCompactNotation off
     SetExecutionDomain	    off
@@ -1278,7 +1278,7 @@ Model {
     ShowPageBoundaries	    off
     ZoomFactor		    "125"
     ReportName		    "simulink-default.rpt"
-    SIDHighWatermark	    "229"
+    SIDHighWatermark	    "230"
     Block {
       BlockType		      Demux
       Name		      "Demux"
@@ -2943,7 +2943,7 @@ Model {
       }
       System {
 	Name			"PowerContro"
-	Location		[366, 41, 1419, 802]
+	Location		[446, 24, 1499, 785]
 	Open			on
 	PortBlocksUseCompactNotation off
 	SetExecutionDomain	off
@@ -3150,7 +3150,7 @@ Model {
 	  Name			  "FuzzyPI"
 	  SID			  "85"
 	  Ports			  [1, 1]
-	  Position		  [110, 141, 170, 179]
+	  Position		  [115, 141, 175, 179]
 	  ZOrder		  318
 	  RequestExecContextInheritance	off
 	  ContentPreviewEnabled	  on
@@ -3617,10 +3617,10 @@ Model {
 	  DstPort		  1
 	}
 	Line {
-	  ZOrder		  65
+	  ZOrder		  75
 	  SrcBlock		  "FuzzyPI"
 	  SrcPort		  1
-	  Points		  [100, 0]
+	  Points		  [95, 0]
 	  Branch {
 	    ZOrder		    66
 	    Points		    [0, 35]
@@ -3640,7 +3640,7 @@ Model {
 	  }
 	}
 	Line {
-	  ZOrder		  63
+	  ZOrder		  74
 	  SrcBlock		  "Sum"
 	  SrcPort		  1
 	  DstBlock		  "FuzzyPI"
